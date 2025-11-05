@@ -1,7 +1,8 @@
 # Brainrot Words List
 This is an open-source repository collecting brainrot words available on the internet.
 
-This repository may contains offensive language, so proceed with caution.
+> [!WARNING]
+> This repository may contains offensive language, so proceed with caution.
 
 # Languages
 Currently available in English and Indonesia, but PRs are welcomed.
