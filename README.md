@@ -9,7 +9,7 @@ Currently available in English and Indonesia, but PRs are welcomed.
 Datasets directory: [/lang](/lang).
 
 # Rules
-The category of words must be less than 36 characters or 7 words ("ain't no party like a diddy party"), longer than that ("Reese's pieces and life saver gummies meme") will be removed during **Formatting**.
+The category of words must be less than 40 characters or 7 words ("ain't no party like a diddy party"), longer than that ("Reese's pieces and life saver gummies meme") will be removed during **Formatting**.
 
 This rules changes overtime depending on the trend.
 
