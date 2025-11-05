@@ -7,7 +7,7 @@ import path from "node:path";
 
 const languagesPath = path.join(process.cwd(), "lang");
 const encoding = "utf-8";
-const [maxWordsLength, maxCharsLength] = [5, 24];
+const [maxWordsLength, maxCharsLength] = [7, 36];
 
 async function init() {
   const languages = await readdir(languagesPath);
@@ -24,7 +24,7 @@ async function init() {
       .filter(word => (word.split(/\s/).length > maxWordsLength || word.length > maxCharsLength) !== true)
 
     const formattedArray = Array.from(new Set(
-      array.map(word => word.trim().toLowerCase().replace(/[^\w\d\s\+]/gim, ""))
+      array.map(word => word.trim().toLowerCase().replace(/[^\w\d\s\+']/gim, ""))
     ));
     
     await writeFile(_path, formattedArray.join("\n"), { encoding });
