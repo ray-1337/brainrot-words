@@ -20,4 +20,4 @@ Words are, beforehands, will be formatted in lowercase, sanitized (removing spec
 Credits available in [CITATIONS.md](CITATIONS.md).
 
 # LICENSE
-[UNLICENSED](LICENSE)
+[UNLICENSE](LICENSE)
