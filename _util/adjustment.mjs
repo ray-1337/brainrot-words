@@ -23,9 +23,8 @@ async function init() {
       .split(/\r?\n/)
       .filter(word => (word.split(/\s/).length > maxWordsLength || word.length > maxCharsLength) !== true)
 
-    const formattedArray = Array.from(new Set(
-      array.map(word => word.trim().toLowerCase().replace(/[^\w\d\s\+'\/\-]/gim, ""))
-    ));
+    const deduplicatedArray = new Set(array.map(word => word.replace(/[^\w\d\s\+'\/\-,]/gim, "").toLowerCase().trim()));
+    const formattedArray = Array.from(deduplicatedArray).filter(word => word.length > 0);
     
     await writeFile(_path, formattedArray.join("\n"), { encoding });
   };
