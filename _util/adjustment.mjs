@@ -5,7 +5,6 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-console.log(process.cwd())
 const languagesPath = path.join(process.cwd(), "lang");
 const encoding = "utf-8";
 
