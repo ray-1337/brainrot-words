@@ -7,7 +7,7 @@ import path from "node:path";
 
 const languagesPath = path.join(process.cwd(), "lang");
 const encoding = "utf-8";
-const [maxWordsLength, maxCharsLength] = [4, 24];
+const [maxWordsLength, maxCharsLength] = [5, 24];
 
 async function init() {
   const languages = await readdir(languagesPath);
