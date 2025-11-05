@@ -5,6 +5,9 @@
 - https://gamequitters.com/brainrot-slang/
 - https://reddit.com/r/GenAlpha/comments/1evj2ho/list_of_brain_rot_words/
 - https://reddit.com/r/NoStupidQuestions/comments/1cgk2l7/is_there_a_comprehensiveish_list_of_all_the/
+- https://kaggle.com/datasets/abot1001/brainrot
+- https://en.wikipedia.org/wiki/Italian_brainrot
+- https://kaggle.com/datasets/synapsys/brainrot
 
 ## id-ID
 - https://web.facebook.com/knowyourmemeID/posts/farhan-kebab-adalah-suatu-reaction-image-yang-menampilkan-orang-tengah-menjilat-/5431897806863234
